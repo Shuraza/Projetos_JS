@@ -1,0 +1,14 @@
+#titulo{
+    text-align: center;
+}
+
+
+#container{
+    margin: auto;
+    width: 50%;
+}
+
+#grafico{
+    max-width: 100%;
+    height: auto;
+}

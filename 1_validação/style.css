@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+input.invalid {
+    border-color: red;
+}
