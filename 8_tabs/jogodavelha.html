@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Jogo da Velha</title>
+  <Link rel="stylesheet" href="jogodavelha.css"/>
+  <script type="text/javascript" src="jogodavela.js" ></script>
+  
+  
+</head>
+<body>
+  <div class="MT">
+    <button class="MTClick" onclick="tabe(event, 'Jogo')">Jogo</button>
+    <button class="MTClick" onclick="tabe(event, 'Regras')">Regras</button>
+    <button class="MTClick" onclick="tabe(event, 'Historia')">Historia</button>
+    <button class="MTClick" onclick="tabe(event, 'Estrategia')">Estratégias</button>
+  </div>
+  
+
+  <div id="Jogo" class="conteudo">
+    <h3>Jogo da Velha</h3>
+    <p>O Jogo da Velha, como é conhecido popularmente no Brasil, também pode ser chamado de jogo do galo
+       (como é popularmente conhecido em portugal) ou 3 em linha. É um jogo facil e popular que pode ser aprendido em menos de 3 partidas.
+    </p>
+  </div>
+  
+  <div id="Regras" class="conteudo">
+    <h3>Regras</h3>
+    <p>O tabuleiro do jogo é formado por dois riscos na vertical e dois riscos na horizontal.<br>
+       O cruzamento dos riscos no meio deve ser um quadrado, e é bom que os espaços uqe ficaram pra fora tenham um tamanho parecido.<br>
+       É jogado com dois jogadores, um jogando com o 'x' e outro jogando com o 'o', geralmente o x começa, mas não importa muito a ordem desde que os jogadores estejam de acordo.<br>
+       Ganha o jogo o primeiro jogador a fazer 3 em linha, tanto na horizontal, vertical ou diagonal.<br>
+       Se os 9 espaços diverem sido preenchidos e nem o 'x' nem o 'o' tiverem alcançado 3 em linha, o jogo empata, conhecido também como 'deu velha'
+    </p>
+  </div>
+  
+  <div id="Historia" class="conteudo">
+    <h3>Historia</h3>
+    <p>A origem é desconhecida, com indicações de que pode ter começado no antigo Egito,
+         onde foram encontrados tabuleiros esculpidos na rocha, que teriam mais de 3.500 anos.</p>
+  </div>
+
+  <div id="Estrategia" class="conteudo">
+    <h3>Estrategias</h3>
+    <p><ol>
+       <li> Ganhar: Se você tem duas peças numa linha, ponha a terceira.</li>
+       <li> Bloquear: Se o oponente tiver duas peças em linha, ponha a terceira para bloqueá-lo.</li>
+       <li> Triângulo: Crie uma oportunidade em que você poderá ganhar de duas maneiras.</li>
+       <li> Bloquear o Triângulo do oponente:<br>
+        Opção 1: Crie 2 peças em linha para forçar o oponente a se defender, contanto que não resulte nele criando um triângulo ou vencendo. Por exemplo, se 'X' tem dois cantos opostos do tabuleiro e 'O' tem o centro, 'O' não pode jogar num canto (Jogar no canto nesse cenário criaria um triângulo em que 'X' vence).<br>
+        Opção 2: Se existe uma configuração em que o oponente pode formar um triângulo, bloqueiem-no.</li>
+       <li> Centro: Jogue no centro.</li>
+       <li> Canto vazio: jogue num canto vazio.</li>
+       </ol>
+       Resumindo as estratégias, o jogador deve ter preferência pela posição central, seguida pelos cantos, seguidos pelas bordas.
+    </p>
+  </div>
+  <script>
+    load()
+  </script> 
+
+</body>
+</html>
+
+
+

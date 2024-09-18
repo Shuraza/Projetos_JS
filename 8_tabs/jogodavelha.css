@@ -1,0 +1,43 @@
+.MT {
+    overflow: hidden;
+    border: 1px solid rgb(196, 87, 87);
+    background-color: #7782df;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .MT button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .MT button:hover {
+    background-color: rgb(223, 128, 128);
+  }
+  .conteudo {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgb(196, 87, 87);
+    border-top: none;
+    background-color: #7782df;
+    border-radius: 16px;
+    margin-top: 20px;
+  }
+
+  .conteudo {
+    animation: fadeEffect 1s; 
+  }
+ 
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+
