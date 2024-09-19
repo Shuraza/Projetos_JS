@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal de Login 9</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <button id="openModal">Login</button>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" required>
+                <br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" required>
+                <button class="aquele" type="submit">Entrar</button>
+                <div id="error" class="error"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
